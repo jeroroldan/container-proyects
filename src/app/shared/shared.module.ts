@@ -5,6 +5,7 @@ import { NavbarComponent } from './ui/navbar/navbar.component';
 import { DashboardLayoutComponent } from './layout/dashboard-layout/dashboard-layout.component';
 import { SharedRoutingModule } from './shared-routing.module';
 import { RouterModule } from '@angular/router';
+import { MaterialModule } from '../material.module';
 
 
 
@@ -17,7 +18,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     SharedRoutingModule,
-    RouterModule
+    RouterModule,
+    MaterialModule
   ]
 })
 export class SharedModule { }
